@@ -67,7 +67,6 @@
       <a href="https://github.com/sanchece/wedding-invitation/raw/main/Invitacion.jpg" download="Invitation | June 25 | Hope to see you there!">
          <div class="venue"><span id="download"> INVITATION CARD</span></div>
       </a> 
-      
    </div>
    <div>
       <button onclick="changeLanguage('eng')">
@@ -94,11 +93,13 @@
    </div>
 
    <div class="actions">
-      <a href="https://www.google.com/maps/place/Knights+of+Columbus/@42.2197695,-83.2798564,17z/data=!3m1!4b1!4m5!3m4!1s0x883b490d91a497b7:0x66d1f77a3f54dcff!8m2!3d42.2197685!4d-83.2778316"
-         target="_blank">
-         <div class="venue" id="venue">DIRECTIONS TO THE VENUE</div>
-      </a>
-   </div>
+      <div class="actions">
+         <a href="https://www.google.com/maps/place/Knights+of+Columbus/@42.2197655,-83.2798511,17z/data=!3m1!4b1!4m5!3m4!1s0x883b490d91a497b7:0x66d1f77a3f54dcff!8m2!3d42.2197685!4d-83.2778316"
+            target="_blank">
+            <div class="venue"><span id="directions2">DIRECTIONS TO THE VENUE</span></div>
+         </a>
+
+      </div>
 
 
    <div class="title-2">
@@ -146,7 +147,7 @@
             download: `COPIA DE INVITACIÓN`,
             dance: "a continuación la cena y el baile",
             dinner: "LA CENA SERÁ A LAS",
-            venue: "DIRECCIONES PARA LA RECEPCIÓN",
+            directions2: "DIRECCIONES PARA LA RECEPCIÓN",
             countdown: "CONTEO PARA LA BODA ",
             // join: "¡ÚNETE A CELEBRAR CON NOSOTROS!",
          },
@@ -162,7 +163,7 @@
             download: `INVITATION CARD`,
             dance: "dinner & dancing to follow",
             dinner: "DINNER WILL BE SERVED AT",
-            venue: "DIRECTIONS TO VENUE",
+            directions2: "DIRECTIONS TO THE VENUE",
             countdown: "WEDDING DAY COUNTDOWN",
             // join: "Join us in our happiness!",
          }
@@ -183,7 +184,7 @@
             download.textContent = language.es.download;
             dance.textContent = language.es.dance;
             dinner.textContent = language.es.dinner;
-            venue.textContent = language.es.venue;
+            directions2.textContent = language.es.venue;
             countdown.textContent = language.es.countdown;
             join.textContent = language.es.join;
          }
@@ -199,7 +200,7 @@
             download.textContent = language.eng.download;
             dance.textContent = language.eng.dance;
             dinner.textContent = language.eng.dinner;
-            venue.textContent = language.eng.venue;
+            directions2.textContent = language.eng.venue;
             countdown.textContent = language.eng.countdown;
             join.textContent = language.eng.join;
          }
