@@ -345,7 +345,7 @@
 }
 
 .sakura {
-	background: #674ea7;
+	background: #ff8d9c;
 }
 
 
@@ -365,7 +365,7 @@ img.bottom{
 }
 @media (max-width:500px) {
 	img .top-right-decoration, .top-left-decoration{
-		max-width: 42%;
+		max-width: 55%;
 	}
 	img.bottom{
 		max-width:90%;
@@ -505,7 +505,7 @@ body {
 	width: auto;
 	height: auto;
 	background-color: #ad053d;
-	border-radius: 16px;
+	border-radius: 10px;
 	text-align: center;
 	color: #fff;
 	padding: 8px 14px;
@@ -563,7 +563,7 @@ body {
 .footer {
 	color: #564861;
 	text-align: center;
-	font-size: 10px;
+	font-size: 8px;
 	margin: 40px;
 }
 
@@ -606,5 +606,16 @@ a {
 	display: flex;
 	font-size: 12px;
 	letter-spacing: 0pt;
-	margin-bottom: 2em;
+	margin-bottom: 6em;
+}
+
+button{
+	border:none;
+	width: auto;
+	height: auto;
+	border-radius: 10px;
+	text-align: center;
+	color:#ad053d ;
+	padding: 4px 10px;
+	margin-right: 8px;
 }
