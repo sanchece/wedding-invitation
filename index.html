@@ -50,17 +50,10 @@
             <span id="part_two">to attend our wedding ceremony</span> <br><br>
             <span id="part_three">on</span>
             <span class="date"><span id="day"> Saturday June</span> 25 2022 | 2PM</span><br>
-            <span id="part_four">At</span><span class="place"> Basilica de Sainte Anne</span> <br>
+            <span id="part_four">At</span><span class="place"> Basilica of Sainte Anne</span> <br>
             1000 St Anne St, Detroit, MI
          </p>
-         <div>
-            <button onclick="changeLanguage('eng')">
-               English
-            </button>
-            <button  onclick="changeLanguage('es')">
-               Español
-            </button>
-         </div>
+
       </div>
 
    </div>
@@ -71,10 +64,18 @@
          <div class="venue"><span id="directions">DIRECTIONS TO CHURCH</span></div>
       </a>
       <!-- href="https://github.com/vinitshahdeo/vinitshahdeo/raw/master/docs/Sonali%20%26%20Gagan.pdf" -->
-      <a download="Invitation | June 25 | Hope to see you there!">
+      <a href="https://github.com/sanchece/wedding-invitation/raw/main/invitaciones.pdf" download="Invitation | June 25 | Hope to see you there!">
          <div class="venue"><span id="download">DOWNLOAD INVITATION CARD</span></div>
       </a> 
       
+   </div>
+   <div>
+      <button onclick="changeLanguage('eng')">
+         English
+      </button>
+      <button  onclick="changeLanguage('es')">
+         Español
+      </button>
    </div>
    <hr size=".5" width="70%" color="#d4d4d4">  
  
@@ -141,9 +142,9 @@
       // Define the language reload anchors
       var language = {
          es: {
-            are_getting_married: "recibirán el sacramento de matrimonio",
+            are_getting_married: "¡NOS CASAMOS!",
             part_one: `ESTAS CORDIALMENTE INVITADO`,
-            part_two: `A NUESTRA CEREMONIA DE BODA`,
+            part_two: `A NUESTRA CEREMONIA DE MATRIMONIO`,
             part_three: `EL`,
             day: `SABADO JUNIO`,
             part_four: `EN LA`,
@@ -153,7 +154,7 @@
             dance: "a continuación la cena y el baile",
             dinner: "LA CENA SERÁ A LAS",
             venue: "DIRECCIONES PARA LA RECEPCIÓN",
-            countdown: "CONTEO VIVO PARA LA BODA ",
+            countdown: "VIVO PARA LA BODA ",
             join: "¡ÚNETE A CELEBRAR CON NOSOTROS!",
          },
          eng: {
@@ -165,11 +166,11 @@
             part_four: `AT`,
             part_five: `AT`,
             directions: `DIRECTIONS TO CHURCH`,
-            download: `DOWNLOAD INVIATION CARD`,
+            download: `DOWNLOAD INVITATION CARD`,
             dance: "dinner & dancing to follow",
-            dinner: "DINNER WILL BE SERVED ",
+            dinner: "DINNER WILL BE SERVED AT",
             venue: "DIRECTIONS TO VENUE",
-            countdown: "LIVE WEDDING DAY COUNTDOWN",
+            countdown: "WEDDING DAY COUNTDOWN",
             join: "Join us in our happiness!",
          }
       };
